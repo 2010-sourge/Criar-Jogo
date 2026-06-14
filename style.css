@@ -1,0 +1,92 @@
+/* Reset padrão de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo azul idêntico ao da tela do notebook */
+body {
+    background: linear-gradient(135deg, #2b93f3 0%, #5ca9f8 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo do Card Branco com bordas arredondadas */
+.game-card {
+    background-color: #f1f3f4; /* Tom off-white levemente acinzentado da foto */
+    padding: 40px 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+}
+
+/* Título principal */
+h1 {
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+/* Alinhamento do input e botão lado a lado */
+.input-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* Caixa de texto para digitar o número */
+#guessInput {
+    width: 110px;
+    height: 50px;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    color: #333;
+}
+
+/* Remove as setinhas padrão do input do tipo number */
+#guessInput::-webkit-outer-spin-button,
+#guessInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Botão Azul de Check */
+#checkBtn {
+    background-color: #3b9cf3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#checkBtn:hover {
+    background-color: #258ae9;
+}
+
+#checkBtn:disabled {
+    background-color: #b0d4f7;
+    cursor: not-allowed;
+}
+
+/* Texto das chances / mensagens do jogo */
+.chances-text {
+    color: #757575;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
