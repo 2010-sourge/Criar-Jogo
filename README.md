@@ -1,6 +1,6 @@
 # Guess the Number
 
-Projeto de prática de front-end que consiste em um **jogo de adivinhação de números**, desenvolvido com HTML, CSS e JavaScript.
+Projeto de prática de front-end que consiste em um **jogo de adivinhação de números**, desenvolvido com HTML, CSS.
 
 ## 📋 Sobre o projeto
 
